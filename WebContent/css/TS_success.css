@@ -1,0 +1,151 @@
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html,body{
+	width: 100%;
+}
+/*上导航栏*/
+#src-nav{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+	background: #F8F8F8;
+	border-bottom: 1px solid #e7e7e7;
+	min-width: 80%;
+	padding: 0px 2%;
+}
+#src-nav>h1{
+float: left;
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	font-size:24px;
+	font-family: "SimHei", 黑体;
+	color: #777;
+	margin: 0px;
+margin-right: 8px;
+}
+#src-nav>span{
+	color: #777;
+	font-family: "Microsoft YaHei", 微软雅黑;
+	font-size: 14px;
+}
+#src-nav>span>strong{
+	font-weight: 100;
+	color: #337AB7;
+}
+#src-nav>.logout{
+	position: fixed;
+	height: 50px;
+	line-height: 50px;
+	top: 0px;
+	right: 2%;
+	font-size: 16px;
+	color: #777;
+}
+#src-nav>.nowName{
+	float:left;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 4px;
+}
+#src-nav>.logout>i{
+	font-size: 17px;
+	color: #D02C2D;
+	margin-right: 4px;
+}
+#src-nav>.logout:hover{	
+	color: #D02C2D;
+	cursor: pointer;
+}
+/*测导航栏*/
+#src-left-nav{
+	position: fixed;
+	height: 100%;
+	width: 18%;
+	min-width: 250px;
+	background: #F8F8F8;
+	top: 51px;
+	left: 0px;
+	border-right: 1px solid #e7e7e7;
+}
+#src-left-nav>ul{
+	height: auto;
+	width: 100%;
+	list-style: none;
+	margin: 0px;
+}
+#src-left-nav>ul>li{
+	color: #337AB7;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-family: "Microsoft YaHei", 微软雅黑;
+	border-bottom: 1px solid #e7e7e7;
+	font-size: 14px;
+	cursor: pointer;
+}
+#src-left-nav>ul>li:hover{
+	background: #eeeeee;
+}
+#src-left-nav>ul>li>i{
+	display: inline-block;
+	text-align: center;
+	width: 20px;
+	margin:0px 4px 0px 20px;
+}
+/*内容头*/
+#src-con-head{
+	position: fixed;
+	top: 51px;
+	height: 130px;
+	min-width: 970px;
+	z-index: -1;
+}
+#src-con-head>h1{
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: #000;
+	margin-left: 2.5%;
+	font-size: 35px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-family: "Microsoft YaHei", 微软雅黑;
+	font-weight: 100;
+}
+#src-con-head>span{
+	display: block;
+	width: 96%;
+	line-height: 38px;
+	height: 38px;
+	background: #f5f5f5;
+	margin: 0px auto;
+	border-radius: 2px;
+	
+}
+#src-con-head>span>p{
+    font-family: "Microsoft YaHei", 微软雅黑;
+	color: #999;
+	margin-left: 15px;
+	font-size: 14px;
+	
+}
+#src-con-head>span>p>strong{
+	font-weight: 100;
+	color: #337AB7;
+}
+/*内容区*/
+#con{
+	position: absolute;
+	display:none;
+	top: 181px;
+	background: #fff;
+	min-width: 970px;
+	z-index: -1;
+}

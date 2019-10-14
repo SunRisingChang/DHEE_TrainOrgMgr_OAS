@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<constant name="struts.devMode" value="false" /><!--struts.devMode表示Struts的开发模式，值为true时，项目更改立即生效 -->
+
+	<package name="Admin" namespace="/" extends="struts-default">
+	
+		<interceptors><!--验证是否登录 -->
+			<interceptor name="LoginAI" class="com.dhee.interceptor.LoginAI" />
+		</interceptors>
+		
+		<action name="admin_*" class="com.dhee.action.AdminAction"
+			method="{1}">
+			<!--  
+			<interceptor-ref name="defaultStack" />
+			<interceptor-ref name="LoginAI" />
+			-->
+		</action>
+		
+		<action name="adminInit_*" class="com.dhee.action.AdminAction"
+			method="{1}">
+		</action>
+		
+	</package>
+
+</struts>

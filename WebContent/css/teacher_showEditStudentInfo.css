@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+#gold1{
+	height:768px;
+	width:100%;
+	min-width: 1030px;
+}
+#gold1 input{
+	text-indent:4px;
+}
+#gold11 .left input{
+	color:#999;
+}
+.left{
+	position:relative;
+	top:20px;
+	float:left;
+	width:50%;
+	height:500px;
+		}
+.right{
+	position:relative;
+	top:20px;
+	float:left;
+	width:50%;
+	height:500px;
+	}
+#gold1 ul{
+	position:relative;
+	}
+#gold1 ul>li{
+	position:relative;
+	float:left;
+	height:50px;
+	width:100%;
+	list-style:none;
+	text-align:right;
+	line-height:50px;
+	display:inline-block;
+	}
+.text1{
+	position:relative;
+	width:50%;
+	height:22px;
+	margin-right:10%;
+	border:1px solid #9E9D9D;
+	}
+.sp{
+	position:relative;
+	margin-right:20px;
+	}
+.text2{
+	position:relative;
+	width:50%;
+	height:22px;
+	margin-right:30%;
+	border:1px solid #9E9D9D;
+	}
+.div_text{
+	position:relative;
+	float:right;
+	margin-right:10%;
+	width:50%;
+	height:50px;
+	text-align:left;
+	}
+.radio2{
+	position:relative;
+	margin-left:30px;
+	}
+.bottom{
+	position: absolute;
+	top:580px;
+	width:200px;
+	height:45px;
+	background:#4ED361;
+	left:50%;
+	margin-left:-100px;
+	border-radius:4px;
+	color:#FCFCFC;
+	font-size:24px;
+	font-weight:800;
+	line-height:45px;
+	text-align:center;
+	cursor:pointer;
+	}
+#gold1 #c4,#gold1 #c44{
+	width: 22%;
+}
+#gold1 #c4{
+	margin-right: 8px;
+}
+#gold1 #c44{
+	margin-left: 8px;
+}
+
+#gold1 .right .sp{
+	position:relative;
+	margin-left:20px;
+}
+.div_text2{
+	position:relative;
+	float:right;
+	margin-right:29%;
+	width:50%;
+	height:50px;
+	text-align:left;
+	margin-left: 14px;
+	}
